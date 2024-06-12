@@ -32,7 +32,8 @@
   color: #ECF0F1;
   font-size: 1.8vh;
 }
-/* --- */
+/* 1-------------------------------------------------------------------------1 */
+
 
 /* Header design */
 header {
@@ -63,8 +64,10 @@ header {
   align-items: center;
   gap: 5%;
 }
-/* --- */
+/* 2-------------------------------------------------------------------------2 */
 
+
+/* Main screen design */
 .landing-screen {
   display: flex;
   width: 100vw;
@@ -91,7 +94,10 @@ header {
   left: 0;
   bottom: 0;
 }
+/* 2-------------------------------------------------------------------------2 */
 
+
+/* Logo design */
 .logo-center {
   display: flex;
   width: 27vh;
@@ -113,7 +119,10 @@ header {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* 3-------------------------------------------------------------------------3 */
 
+
+/* Left side, presentations design */
 .presentations-container {
   display: flex;
   height: 50vh;
@@ -208,3 +217,4 @@ header {
   background-size: cover;
   border: 0.8px solid white;
 }
+/* 4-------------------------------------------------------------------------4 */
