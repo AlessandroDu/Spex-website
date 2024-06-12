@@ -1,15 +1,51 @@
 
-.presentations-container-1b {
+.landing-screen-top-half {
     display: flex;
-    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
     position: absolute;
-    left: 50%;
-    right: 5%;
-    bottom: 50%;
-    transform: translateY(50%);
+    top: 0;
 }
 
-.presentation-top-1b {
+.details-1c {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 55vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2.5vh;
+}
+
+.details-left {
+    position: absolute;
+}
+
+.details-middle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.details-right {
+    position: absolute;
+    right: 0;
+}
+
+.presentations-container-1c {
+    display: flex;
+    height: 50vh;
+    width: 55vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.8px solid white;
+}
+
+.presentation-left-1c {
     z-index: 1;
     display: flex;
     width: 35vh;
@@ -20,10 +56,9 @@
     background-image: url("../images/software-presentation-left.jpg");
     background-size: cover;
     border: 0.8px solid white;
-    margin-bottom: 2.5%;
 }
 
-.presentation-middle-1b {
+.presentation-middle-1c {
     z-index: 3;
     display: flex;
     width: 35vh;
@@ -34,10 +69,9 @@
     background-image: url("../images/spex-integrations-presentation-middle.png");
     background-size: cover;
     border: 0.8px solid white;
-    margin-bottom: 2.5%;
 }
 
-.presentation-bottom-1b {
+.presentation-right-1c {
     z-index: 1;
     display: flex;
     width: 35vh;
@@ -50,24 +84,23 @@
     border: 0.8px solid white;
 }
 
-.header-top-1b {
+.header-left-1c {
     z-index: 2;
     display: flex;
     width: 35vh;
-    height: 23vh;
-  }
+    height: max-content;
+}
   
-  .header-middle-1b {
+.header-middle-1c {
     z-index: 2;
     display: flex;
     width: 35vh;
-    height: 23vh;
-    
-  }
+    height: max-content;
+}
   
-  .header-bottom-1b {
+.header-right-1c {
     z-index: 2;
     display: flex;
     width: 35vh;
-    height: 23vh;
-  }
+    height: max-content;
+}

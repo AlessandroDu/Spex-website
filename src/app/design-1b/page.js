@@ -1,11 +1,10 @@
 
-import "./styles.css"
+import "./styles.css";
 
 export default function Design_1b() {
 
     return (
-        <div>
-            <div>
+      <div>
         {/* <header>
           <section className="header-section-options text-jetblack">
             <div>About Us</div>
@@ -24,7 +23,7 @@ export default function Design_1b() {
           <div className="presentations-container-1b">
             <div>
               <div className="presentation-top-1b">
-                <div className="header-left-1b"><p className="header-p">Software</p></div>
+                <div className="header-top-1b"><p className="header-p">Software</p></div>
               </div>
             </div>
             <div>
@@ -34,12 +33,11 @@ export default function Design_1b() {
             </div>
             <div>
               <div className="presentation-bottom-1b">
-                <div className="header-right-1b"><p className="header-p">Solar</p></div>
+                <div className="header-bottom-1b"><p className="header-p">Solar</p></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-        </div>
     );
 }
