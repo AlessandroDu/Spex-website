@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* General design rules */
 .background-whitesmoke {
   background-color: #ECF0F1;
 }
@@ -24,6 +25,132 @@
 
 .text-jetblack {
   color: #2C3E50;
+  font-size: 1.8vh;
+}
+
+.text-whitesmoke {
+  color: #ECF0F1;
+  font-size: 1.8vh;
+}
+/* --- */
+
+/* Header design */
+header {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+}
+
+.header-section-logo {
+  display: flex;
+  position: absolute;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-section-options {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 40vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+/* --- */
+
+.landing-screen {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  background-image: url("./images/clubmed-bg.jpg");
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.blur {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  --tw-blur: blur(0px) !important;
+}
+
+.logo-center {
+  display: flex;
+  width: 30vh;
+  height: 30vh;
+  background-image: url("./images/logo.png");
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+  /* border-radius: 4px; */
+}
+
+.logo-bg-square {
+  background-color: white;
+  width: 31vh;
+  height: 31vh;
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translate(-15%, -50%);
+  box-shadow: -1px 2.5px 5px whitesmoke;
+  /* border-radius: 4px; */
+}
+
+.presentation-left {
+  display: flex;
+  width: 28vh;
+  height: 38vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url("./images/left_bottom.jpg");
+  background-size: cover;
+  transform: translate(-50%, -50%);
+  /* box-shadow: -2.5px 2.5px 5px whitesmoke; */
+  box-shadow: 0 2.5px 5px 1.5px whitesmoke;
+  /* border-radius: 4px; */
+}
+
+.presentation-middle {
+  display: flex;
+  width: 38vh;
+  height: 50vh;
+  position: absolute;
+  left: 71.5%;
+  top: 50%;
+  /* background-color: white; */
+  background-image: url("./images/right_bottom.jpg");
+  background-size: cover;
+  transform: translate(-71.5%, -50%);
+  /* box-shadow: -2.5px 5px 5px whitesmoke; */
+  box-shadow: 0 2.5px 5px 1.5px whitesmoke;
+  /* border-radius: 4px; */
+}
+
+.presentation-right {
+  display: flex;
+  width: 28vh;
+  height: 38vh;
+  position: absolute;
+  left: 91%;
+  top: 50%;
+  /* background-color: white; */
+  background-image: url("./images/right_top.jpg");
+  background-size: cover;
+  transform: translate(-91%, -50%);
+  box-shadow: 0 2.5px 5px 1.5px whitesmoke;
+  /* border-radius: 4px; */
 }
 
 @layer utilities {
