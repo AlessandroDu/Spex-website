@@ -1,0 +1,234 @@
+/* Design 1b */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+  }
+  
+  .Navbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #3498DB, #2C3E50);
+    color: white;
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .service {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service h2 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: #7F8C8D;
+  }
+  
+  @media(min-width: 768px) {
+    .services {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .service {
+      flex: 1 1 calc(50% - 40px);
+      margin: 20px;
+    }
+  }
+  
+  /* Design 1C */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+  }
+  
+  .navbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #3498DB, #2C3E50);
+    color: white;
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .service-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .service-card h2 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #7F8C8D;
+  }
+  
+  @media(min-width: 768px) {
+    .services {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .service-card {
+      flex: 1 1 calc(50% - 40px);
+      margin: 20px;
+    }
+  }
+  
+  /* Design 1d */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+  }
+  
+  .navbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #3498DB, #2C3E50);
+    color: white;
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .service-item {
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .service-item h2 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    color: #7F8C8D;
+  }
+  
+  @media(min-width: 768px) {
+    .services {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media(min-width: 1024px) {
+    .services {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }

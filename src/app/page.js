@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <div>
         {/* <header>
           <section className="header-section-options text-jetblack">
@@ -35,6 +35,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
