@@ -1,0 +1,101 @@
+
+body {
+    overflow-x: hidden;
+}
+
+.text-whitesmoke-integrations {
+    color: #ECF0F1;
+    font-size: x-large;
+  }
+
+.integrations-screen {
+    background-image: url("../images/spex-integrations2.0-cover.jpg");
+    background-position: center;
+    background-position-y: -1vh;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.landing-screen-top-half {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+}
+
+.title-integrations {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 55vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: max-content;
+    justify-content: center;
+    align-items: end;
+}
+
+.see-more-container-integrations {
+    display: flex;
+    height: 50vh;
+    width: 55vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.8px solid white;
+}
+
+.see-more-underline {
+    text-decoration: underline;
+}
+
+.see-more-btn {
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: small;
+}
+
+.btn-see-more {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Logo design */
+.logo-center-integrations {
+    display: flex;
+    width: 11vh;
+    height: 11vh;
+    background-image: url("../images/logo-wbg.png");
+    background-size: cover;
+  }
+  
+  .logo-bg-square-integrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 12vh;
+    height: 12vh;
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+  }
+
+.div1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2C3E50; 
+    background-size: cover;
+}

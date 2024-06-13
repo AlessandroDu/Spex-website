@@ -71,6 +71,12 @@
     border: 0.8px solid white;
 }
 
+.presentation-left-1c:hover, .presentation-middle-1c:hover, .presentation-right-1c:hover {
+    width: 36vh;
+    height: 24vh;
+    box-shadow: 0 2px 5px 2px white;
+}
+
 .presentation-right-1c {
     z-index: 1;
     display: flex;
