@@ -27,6 +27,10 @@
     transform: translateX(-50%);
 }
 
+.details-middle:hover {
+    text-decoration: underline;
+}
+
 .details-right {
     position: absolute;
     right: 0;
@@ -74,7 +78,7 @@
 .presentation-left-1c:hover, .presentation-middle-1c:hover, .presentation-right-1c:hover {
     width: 36vh;
     height: 24vh;
-    box-shadow: 0 2px 5px 2px white;
+    box-shadow: 0 0.5px 5px 1px white;
 }
 
 .presentation-right-1c {
@@ -93,20 +97,122 @@
 .header-left-1c {
     z-index: 2;
     display: flex;
-    width: 35vh;
+    width: 100%;
     height: max-content;
 }
   
 .header-middle-1c {
     z-index: 2;
     display: flex;
-    width: 35vh;
+    width: 100%;
     height: max-content;
 }
   
 .header-right-1c {
     z-index: 2;
     display: flex;
-    width: 35vh;
+    width: 100%;
     height: max-content;
+}
+
+.div1 {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-surface-neutral-opaque-subtle, #eee);
+    background-size: cover;
+}
+
+.div1-subdiv {
+    z-index: 2;
+    display: flex;
+    width: 95vw;
+    height: 80vh;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about-us-header {
+    display: flex;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    transform: translateY(-50%);
+    font-size: x-large;
+}
+
+.about-us-p {
+    display: flex;
+    margin-top: 8vh;
+    margin-left: 2.5vw;
+    font-size: xx-small;
+    color: var(--color-surface-neutral-opaque-subtle, #eee);
+}
+
+.about-us-portfolio-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2.5vw;
+    bottom: 2.5vw;
+    width: 60%;
+    height: 60%;
+    justify-content: end;
+    align-items: end;
+}
+
+.about-us-portfolio-subcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-pics {
+    margin: 1vh;
+}
+
+.pic1 {
+    background-image: url("../images/pic1-zilwa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 25vh;
+}
+.pic2 {
+    background-image: url("../images/pic2-villa-audio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 25vh;
+}
+.pic3 {
+    background-image: url("../images/right_top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 25vh;
+}
+.pic4 {
+    background-image: url("../images/pic4-lakelights.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 25vh;
+}
+.pic5 {
+    background-image: url("../images/pic5-ClubMed_Restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 25vh;
+}
+.pic6 {
+    background-image: url("../images/pic6-ClubMed_Restaurant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 25vh;
 }

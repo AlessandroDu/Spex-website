@@ -8,22 +8,28 @@ body {
     font-size: x-large;
   }
 
+.text-jetblack-integrations {
+    color: #2C3E50;
+    font-size: x-large;
+}
+
 .integrations-screen {
     background-image: url("../images/spex-integrations2.0-cover.jpg");
     background-position: center;
     background-position-y: -1vh;
 }
 
-.blur {
-    background-color: rgba(0, 0, 0, 0.5);
+.blur-integrations {
+    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 
-.landing-screen-top-half {
+.landing-screen-top-half-integrations {
     display: flex;
     width: 100vw;
-    height: 50vh;
+    height: 10vh;
     position: absolute;
     top: 0;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .title-integrations {
@@ -36,11 +42,12 @@ body {
     height: max-content;
     justify-content: center;
     align-items: end;
+    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 
 .see-more-container-integrations {
     display: flex;
-    height: 50vh;
+    height: 90vh;
     width: 55vw;
     position: absolute;
     bottom: 0;
@@ -48,7 +55,7 @@ body {
     transform: translateX(-50%);
     justify-content: space-between;
     align-items: center;
-    border-top: 0.8px solid white;
+    border-top: 0.8px solid #2C3E50;
 }
 
 .see-more-underline {
@@ -73,29 +80,81 @@ body {
 
 /* Logo design */
 .logo-center-integrations {
+    z-index: 5;
     display: flex;
-    width: 11vh;
-    height: 11vh;
+    width: 5vh;
+    height: 5vh;
     background-image: url("../images/logo-wbg.png");
     background-size: cover;
   }
   
   .logo-bg-square-integrations {
+    z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 12vh;
-    height: 12vh;
+    width: 6vh;
+    height: 6vh;
     position: fixed;
     left: 2vh;
     top: 2vh;
+    box-shadow: 0 0.5px 5px 1px #2C3E50;
   }
 
-.div1 {
+  .logo-bg-square-integrations:hover {
+    
+  }
+
+  .div1-integrations {
+    z-index: 1;
     display: flex;
+    position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #2C3E50; 
+    background: var(--color-surface-neutral-opaque-subtle, #eee);
     background-size: cover;
+}
+
+.div1-subdiv-integrations {
+    z-index: 2;
+    display: flex;
+    width: 95vw;
+    height: 80vh;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.what-we-offer-header-integrations {
+    display: flex;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    transform: translateY(-50%);
+    font-size: x-large;
+}
+
+.categories-container {
+    display: inline;
+    flex-direction: row;
+    font-size: x-small;
+    position: absolute;
+    left: 5vw;
+    top: 15vh;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 5vh;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #2C3E50;
+    color: var(--color-surface-neutral-opaque-subtle, #eee);
+}
+
+.category {
+    display: inline;
+    padding: 1%;
+    width: -moz-fit-content;
+    width: fit-content;
 }

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   width: 0.5vw;
 }
@@ -22,7 +26,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* General design rules */
 .background-whitesmoke {
-  background-color: #ECF0F1;
+  background-color: var(--color-surface-neutral-opaque-subtle, #eee);
 }
 
 .header-footer-bg-midnightblue {
@@ -47,7 +51,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .text-whitesmoke {
-  color: #ECF0F1;
+  color: var(--color-surface-neutral-opaque-subtle, #eee);
   font-size: 1.8vh;
 }
 /* 1-------------------------------------------------------------------------1 */
