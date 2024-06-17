@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /* Center line with details and about us link design */
-.details-1c {
+.details {
     display: flex;
     position: absolute;
     bottom: 0;

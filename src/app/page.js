@@ -13,7 +13,7 @@ export default function Home() {
                       <div className="logo-center"></div>
                     </div>
                 </Link>
-                <div className="details-1c">
+                <div className="details">
                     <div className="details-left text-whitesmoke">office@spex.mu</div>
                     <Link className="details-middle text-whitesmoke" href="/#about-us">
                       <div>About us</div>
