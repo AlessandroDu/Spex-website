@@ -139,10 +139,11 @@
 .about-us-header {
     display: flex;
     position: absolute;
-    left: 10vw;
+    left: 7.5vw;
     top: 10vh;
     transform: translateY(-50%);
     font-size: x-large;
+    color: #2C3E50;
 }
 
 .about-us-p {

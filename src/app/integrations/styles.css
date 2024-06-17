@@ -102,10 +102,6 @@ body {
     box-shadow: 0 0.5px 5px 1px #2C3E50;
   }
 
-  .logo-bg-square-integrations:hover {
-    
-  }
-
   .div1-integrations {
     z-index: 1;
     display: flex;
@@ -130,10 +126,11 @@ body {
 .what-we-offer-header-integrations {
     display: flex;
     position: absolute;
-    left: 10vw;
+    left: 7.5vw;
     top: 10vh;
     transform: translateY(-50%);
     font-size: x-large;
+    color: #2C3E50;
 }
 
 .categories-container {

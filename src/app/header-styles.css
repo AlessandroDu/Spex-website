@@ -1,0 +1,30 @@
+/* Header design */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+  }
+  
+  .header-section-logo {
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .header-section-options {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 40vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+    

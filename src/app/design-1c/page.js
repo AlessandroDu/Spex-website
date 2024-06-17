@@ -6,13 +6,6 @@ export default function Design_1c() {
 
     return (
         <div>
-            {/* <header>
-              <section className="header-section-options text-jetblack">
-                <div>About Us</div>
-                <div>Our Services</div>
-                <div>More</div>
-              </section>
-            </header> */}
             <div className="landing-screen">
               <div className="blur">
               </div>
