@@ -147,7 +147,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* Presentations design */
 /* Main container */
-.presentations-container-1c {
+.presentations-container {
     display: flex;
     height: 50vh;
     width: 55vw;
@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* Sub containers */
-.presentation-left-1c {
+.presentation-left {
     z-index: 1;
     display: flex;
     width: 35vh;
@@ -174,7 +174,7 @@ body::-webkit-scrollbar-thumb:hover {
     border: 0.8px solid white;
 }
 
-.presentation-middle-1c {
+.presentation-middle {
     z-index: 3;
     display: flex;
     width: 35vh;
@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb:hover {
     border: 0.8px solid white;
 }
 
-.presentation-right-1c {
+.presentation-right {
     z-index: 1;
     display: flex;
     width: 35vh;
@@ -200,7 +200,7 @@ body::-webkit-scrollbar-thumb:hover {
     border: 0.8px solid white;
 }
 
-.presentation-left-1c:hover, .presentation-middle-1c:hover, .presentation-right-1c:hover {
+.presentation-left:hover, .presentation-middle:hover, .presentation-right:hover {
     width: 36vh;
     height: 24vh;
     box-shadow: 0 0.5px 5px 1px white;
@@ -217,21 +217,21 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: rgba(255,255,255,0.5)
 }
 
-.header-left-1c {
+.header-left {
     z-index: 2;
     display: flex;
     width: 100%;
     height: max-content;
 }
   
-.header-middle-1c {
+.header-middle {
     z-index: 2;
     display: flex;
     width: 100%;
     height: max-content;
 }
   
-.header-right-1c {
+.header-right {
     z-index: 2;
     display: flex;
     width: 100%;

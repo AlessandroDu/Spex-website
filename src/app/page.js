@@ -21,22 +21,22 @@ export default function Home() {
                     <div className="details-right text-whitesmoke">+230 5453 5710</div>
                 </div>
               </div>
-              <div className="presentations-container-1c">
+              <div className="presentations-container">
                 <div>
-                  <div className="presentation-left-1c">
-                    <div className="header-left-1c"><p className="header-p">Technology</p></div>
+                  <div className="presentation-left">
+                    <div className="header-left"><p className="header-p">Technology</p></div>
                   </div>
                 </div>
                 <div>
                   <Link href="/integrations">
-                    <div className="presentation-middle-1c">
-                      <div className="header-middle-1c"><p className="header-p">Integrations</p></div>
+                    <div className="presentation-middle">
+                      <div className="header-middle"><p className="header-p">Integrations</p></div>
                     </div>
                   </Link>
                 </div>
                 <div>
-                  <div className="presentation-right-1c">
-                    <div className="header-right-1c"><p className="header-p">Energy</p></div>
+                  <div className="presentation-right">
+                    <div className="header-right"><p className="header-p">Energy</p></div>
                   </div>
                 </div>
               </div>
