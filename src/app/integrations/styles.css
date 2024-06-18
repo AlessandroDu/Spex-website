@@ -8,6 +8,8 @@
     height: 5vh;
     background-image: url("../images/logo-wbg.png");
     background-size: cover;
+    position: relative;
+    top: 0;
 }
   
 .logo-bg-square-integrations {
@@ -165,14 +167,14 @@
     display: flex;
     flex: row;
     margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-color: white;
-    color: #2C3E50;
+    background-color: #2C3E50;
+    color: var(--color-surface-neutral-opaque-subtle, #eee);
     width: 95vw;
     height: 40vh;
-    box-shadow: 0 0.5px 5px 1px white;
+    box-shadow: 0 0.5px 5px 1px #2C3E50;
 }
 
 .slogan-container h1, .slogan-container p {

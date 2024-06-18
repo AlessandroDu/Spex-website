@@ -20,7 +20,7 @@ export default function Integrations() {
                     </div>
                 </div>
                 <div className='see-more-container-integrations'>
-                     <Link className='see-more-btn' href="/integrations#div1">
+                     <Link className='see-more-btn' href="/integrations#acoustic">
                          <p>
                             <span className='see-more-underline'>See more</span> <br/>
                              <IconButton className='btn-see-more' aria-label="unfold more">
@@ -30,7 +30,7 @@ export default function Integrations() {
                      </Link>
                 </div>
             </div>
-            <div id='div1' className='div-1'>
+            <div id='acoustic' className='div-1'>
                 <h1 className='div-1-header'>Acoustic</h1>
                 <div className='div-1-subdiv'>
                   <div className='div-1-text'>
@@ -69,7 +69,7 @@ export default function Integrations() {
                   </div>
                 </div>
             </div>
-            <div id='div1' className='div-1'>
+            <div id='audio' className='div-1'>
                 <h1 className='div-1b-header'>Audio</h1>
                 <div className='div-1b-subdiv'>
                   <div className='div-1-text'>
@@ -115,7 +115,7 @@ export default function Integrations() {
                 delivering a sound experience that is as genuine as it is unforgettable.
               </p>
             </div>
-            <div id='div1' className='div-1'>
+            <div id='automation' className='div-1'>
                 <h1 className='div-1-header'>Automation</h1>
                 <div className='div-1-subdiv'>
                   <div className='div-1-text'>
