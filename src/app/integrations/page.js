@@ -50,6 +50,11 @@ export default function Integrations() {
                     <p>- Integration with architectural and structural design elements</p>
                     <p>- Project management and coordination with clients and contractors</p>
                   </div>
+                  <div className='our-main-brands-acoustic-container'>
+                      <h1>Our Main Brands</h1>
+                      <p>Cambridge Sound Masking</p>
+                      <p>Acouspex</p>
+                    </div>
                   <div className='div-1-portfolio-container'>
                     <div className='div-1-portfolio-subcontainer'>
                       <div className='div-1-pics pic-normal pic1-integrations-acoustic'></div>
@@ -101,6 +106,14 @@ export default function Integrations() {
                     </div>
                   </div>
                 </div>
+            </div>
+            <div className='slogan-container'>
+              <h1 className='title'>Experience Sound Like Never<br/>Before</h1>
+              <p>
+                At our company, we believe that true audio excellence goes beyond just volume.<br/>
+                Our meticulously curated collection of acoustic and audio products promises unparalleled quality and authenticity,<br/>
+                delivering a sound experience that is as genuine as it is unforgettable.
+              </p>
             </div>
             <div id='div1' className='div-1'>
                 <h1 className='div-1-header'>Automation</h1>

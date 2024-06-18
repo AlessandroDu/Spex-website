@@ -35,9 +35,11 @@ export default function Home() {
                   </Link>
                 </div>
                 <div>
-                  <div className="presentation-right">
-                    <div className="header-right"><p className="header-p">Energy</p></div>
-                  </div>
+                  <Link href="/energy">
+                    <div className="presentation-right">
+                      <div className="header-right"><p className="header-p">Energy</p></div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -72,6 +74,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+            </div>
+            <div className='our-brands-container'>
+              <h1>Our Brands</h1>
+              <div className='our-brands-container-logos'>
+                <div className='logo-pics logo1'></div>
+                <div className='logo-pics logo2'></div>
+                <div className='logo-pics logo3'></div>
+                <div className='logo-pics logo4'></div>
+                <div className='logo-pics logo5'></div>
+                <div className='logo-pics logo6'></div>
+                <div className='logo-pics logo7'></div>
+              </div>
             </div>
         </div>
   );
