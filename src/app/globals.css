@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb:hover {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/ClubMed_Restaurant_Photo8-min.jpg"); 
+    background-image: url("./images/landing-screen-ClubMed_Restaurant_photo8.jpg"); 
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -169,7 +169,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("./images/software-presentation-left.jpg");
+    background-image: url("./images/presentation-left-software.jpg");
     background-size: cover;
     border: 0.8px solid white;
 }
@@ -182,7 +182,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("./images/spex-integrations-presentation-middle.png");
+    background-image: url("./images/presentation-middle-integrations.png");
     background-size: cover;
     border: 0.8px solid white;
 }
@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("./images/solar-presentation-right.jpg");
+    background-image: url("./images/presentation-right-solar.jpg");
     background-size: cover;
     border: 0.8px solid white;
 }
@@ -261,11 +261,30 @@ body::-webkit-scrollbar-thumb:hover {
   right: 0;
   bottom: 0;
 }
+.div-1b-subdiv {
+  z-index: 2;
+  display: flex;
+  width: 95vw;
+  height: 80vh;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
 .div-1-header {
   display: flex;
   position: absolute;
   left: 7.5vw;
+  top: 10vh;
+  transform: translateY(-50%);
+  font-size: x-large;
+  color: #2C3E50;
+}
+.div-1b-header {
+  display: flex;
+  position: absolute;
+  right: 7.5vw;
   top: 10vh;
   transform: translateY(-50%);
   font-size: x-large;
@@ -321,7 +340,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-image: url("./images/pic2-villa-audio.jpg");
 }
 .pic3-about-us {
-  background-image: url("./images/right_top.jpg");
+  background-image: url("./images/pic3-band.jpg");
 }
 .pic4-about-us {
   background-image: url("./images/pic4-lakelights.png");

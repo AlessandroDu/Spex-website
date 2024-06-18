@@ -46,7 +46,6 @@ export default function Home() {
                 <div className='div-1-subdiv'>
                   <div className='div-1-text'>
                     <h1>Welcome to SPEX Services Ltd</h1>
-                    <br/>
                     <p>
                     A leading integration solutions provider based in Mauritius, established in 2007.<br/><br/>
 
