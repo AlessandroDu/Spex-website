@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { IconButton } from '@mui/material';
 import UnfoldMoreIcon from '@mui/icons-material/UnfoldMore';
 import "./styles.css";
+import "../level2_styles.css";
 
 export default function Integrations() {
 

@@ -1,98 +1,10 @@
 /* Integrations page design */
 
-/* Logo design */
-.logo-center-integrations {
-    z-index: 5;
-    display: flex;
-    width: 5vh;
-    height: 5vh;
-    background-image: url("../images/logo-wbg.png");
-    background-size: cover;
-    position: relative;
-    top: 0;
-}
-  
-.logo-bg-square-integrations {
-    z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 6vh;
-    height: 6vh;
-    position: fixed;
-    left: 2vh;
-    top: 2vh;
-    box-shadow: 0 0.5px 5px 1px #2C3E50;
-}
-/* 0-------------------------------------------------------------------------0 */
-
-
-/* General design rules */
-.text-xl {
-    font-size: x-large;
-}
-/* 1-------------------------------------------------------------------------1 */
-
-
 /* Integrations landing screen design */
 .integrations-screen {
     background-image: url("../images/spex-integrations2.0-cover.jpg");
-    background-position: center;
 }
-
-.landing-screen-title-integrations {
-    display: flex;
-    width: 100vw;
-    height: 10vh;
-    position: absolute;
-    top: 0;
-    background-color: rgba(255,255,255,0.5);
-}
-
-.title-integrations {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 55vw;
-    left: 50%;
-    transform: translateX(-50%);
-    height: max-content;
-    justify-content: center;
-    align-items: end;
-}
-
-.see-more-container-integrations {
-    display: flex;
-    height: 90vh;
-    width: 55vw;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-top: 0.8px solid #2C3E50;
-}
-
-.see-more-underline {
-    text-decoration: underline;
-}
-
-.see-more-btn {
-    display: flex;
-    position: absolute;
-    bottom: 10vh;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: small;
-}
-
-.btn-see-more {
-    display: flex;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-/* 2-------------------------------------------------------------------------2 */
+/* 0-------------------------------------------------------------------------0 */
 
 
 /* div-1 acoustic screen design */
@@ -126,7 +38,7 @@
 .pic6-integrations-acoustic {
     background-image: url("../images/wip-picture.jpg");
 }
-/* 3-------------------------------------------------------------------------3 */
+/* 1-------------------------------------------------------------------------1 */
 
 
 /* div-2 audio screen design */
@@ -159,7 +71,7 @@
 .pic6-integrations-audio {
     background-image: url("../images/wip-picture.jpg");
 }
-/* 4-------------------------------------------------------------------------4 */
+/* 2-------------------------------------------------------------------------2 */
 /* var(--color-surface-neutral-opaque-subtle, #eee); */
 
 /* Slogan integrations page design */
@@ -194,7 +106,7 @@
     font-size: xx-small;
     text-align: center;
 }
-/* 5-------------------------------------------------------------------------5 */
+/* 3-------------------------------------------------------------------------3 */
 
 
 /* div-3 automation screen design */
