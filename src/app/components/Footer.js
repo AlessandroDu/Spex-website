@@ -14,12 +14,12 @@ export default function Footer() {
                         </div>
                     </Link>
                     <br/>
-                    <h1>Contact Us</h1>
+                    <h2>Contact Us</h2>
                     <p className='text-whitesmoke'>Phone: +230 5453 5710</p>
                     <p className='text-whitesmoke'>Email: office@spex.mu</p>
                 </section>
                 <section className="our-location">
-                    <h1>Our shop</h1>
+                    <h2>Our shop</h2>
                     <p className="text-whitesmoke">
                         Monday to Friday 9h00 - 16h30<br/>
                         Saturday 9h00 - 13h00<br/>
@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="footer-right-subdiv">
                 <section className='software'>
                     <Link href="/software">
-                        <h1 className='link'>Software</h1>
+                        <h2 className='link'>Software</h2>
                     </Link>
                     <p className='text-whitesmoke'>
                         Coming Soon
@@ -43,7 +43,7 @@ export default function Footer() {
                 </section>
                 <section className='integrations'>
                     <Link href='/integrations'>
-                        <h1 className='link'>Integrations</h1>
+                        <h2 className='link'>Integrations</h2>
                     </Link>
                     <p className='text-whitesmoke'>
                         <Link href='/integrations#acoustic'>Acoustic<br/></Link>
@@ -53,7 +53,7 @@ export default function Footer() {
                 </section>
                 <section className='energy'>
                     <Link href='/energy'>
-                        <h1 className='link'>Energy</h1>
+                        <h2 className='link'>Energy</h2>
                     </Link>
                     <p className='text-whitesmoke'>
                         <Link href='/energy#'>Plug & Play solar energy solutions<br/></Link>

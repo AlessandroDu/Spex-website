@@ -6,6 +6,16 @@ body {
   background-color: var(--color-surface-neutral-opaque-subtle, #eee);
 }
 
+h1 {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3vh;
+  font-weight: 450;
+}
+
 /* Logo design */
 .logo-center {
     display: flex;
@@ -78,12 +88,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .text-jetblack {
   color: #2C3E50;
-  font-size: 1.8vh;
 }
 
 .text-whitesmoke {
   color: var(--color-surface-neutral-opaque-subtle, #eee);
-  font-size: 1.8vh;
 }
 /* 2-------------------------------------------------------------------------2 */
 
@@ -283,7 +291,6 @@ body::-webkit-scrollbar-thumb:hover {
   left: 7.5vw;
   top: 10vh;
   transform: translateY(-50%);
-  font-size: x-large;
   color: #2C3E50;
 }
 .div-1b-header {
@@ -292,7 +299,6 @@ body::-webkit-scrollbar-thumb:hover {
   right: 7.5vw;
   top: 10vh;
   transform: translateY(-50%);
-  font-size: x-large;
   color: #2C3E50;
 }
 
@@ -302,10 +308,6 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 8vh;
   margin-left: 2.5vw;
   color: var(--color-surface-neutral-opaque-subtle, #eee);
-}
-
-.div-1 p {
-  font-size: xx-small;
 }
 
 .div-1-portfolio-container {
@@ -374,7 +376,6 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   position: relative;
   left: 7.5vw;
-  font-size: x-large;
   width: 45vw;
   height: 20vh;
   align-items: center;
@@ -411,4 +412,47 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .logo7 {
   background-image: url("./images/logo7-TOA.png");
+}
+
+
+/* Default styles for mobile first */
+
+/* Small mobile devices */
+@media (min-width: 320px) {
+  
+}
+
+/* Most smartphones */
+@media (min-width: 375px) {
+  
+}
+
+/* Larger smartphones */
+@media (min-width: 425px) {
+  
+}
+
+/* Tablets in portrait mode */
+@media (min-width: 768px) {
+  
+}
+
+/* Tablets in landscape mode */
+@media (min-width: 1024px) {
+  
+}
+
+/* Small laptops */
+@media (min-width: 1280px) {
+  
+}
+
+/* Standard desktops */
+@media (min-width: 1440px) {
+  
+}
+
+/* Large desktops */
+@media (min-width: 1920px) {
+  
 }

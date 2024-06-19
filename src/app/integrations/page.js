@@ -17,17 +17,17 @@ export default function Integrations() {
                         </div>
                     </Link>
                     <div className="title-integrations">
-                        <h2 className='text-jetblack text-xl'>Integrations</h2>
+                        <h1 className='text-jetblack'>Integrations</h1>
                     </div>
                 </div>
                 <div className='see-more-container-integrations'>
                      <Link className='see-more-btn' href="/integrations#acoustic">
-                         <p>
+                         <h2>
                             <span className='see-more-underline'>See more</span> <br/>
                              <IconButton className='btn-see-more' aria-label="unfold more">
-                               <UnfoldMoreIcon fontSize="small"/>
+                               <UnfoldMoreIcon fontSize="large"/>
                              </IconButton>
-                         </p>
+                         </h2>
                      </Link>
                 </div>
             </div>

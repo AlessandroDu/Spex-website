@@ -37,9 +37,7 @@ export default function Energy() {
                          </p>
                      </Link>
                 </div>
-                <div className='landing-page-bottom-fade'>
-
-                </div>
+                <div className='landing-page-bottom-fade'></div>
             </div>
         </div>
     );

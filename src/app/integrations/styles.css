@@ -96,14 +96,11 @@
 }
 
 .slogan-container h1 {
-    font-size: x-large;
     width: 45vw;
-    font-weight: 600;
 }
 
 .slogan-container p {
     width: 50vw;
-    font-size: xx-small;
     text-align: center;
 }
 /* 3-------------------------------------------------------------------------3 */

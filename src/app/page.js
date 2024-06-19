@@ -24,20 +24,20 @@ export default function Home() {
               <div className="presentations-container">
                 <div>
                   <div className="presentation-left">
-                    <div className="header-left"><p className="header-p">Technology</p></div>
+                    <div className="header-left"><h2 className="header-p">Technology</h2></div>
                   </div>
                 </div>
                 <div>
                   <Link href="/integrations">
                     <div className="presentation-middle">
-                      <div className="header-middle"><p className="header-p">Integrations</p></div>
+                      <div className="header-middle"><h2 className="header-p">Integrations</h2></div>
                     </div>
                   </Link>
                 </div>
                 <div>
                   <Link href="/energy">
                     <div className="presentation-right">
-                      <div className="header-right"><p className="header-p">Energy</p></div>
+                      <div className="header-right"><h2 className="header-p">Energy</h2></div>
                     </div>
                   </Link>
                 </div>
