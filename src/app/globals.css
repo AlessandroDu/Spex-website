@@ -199,7 +199,8 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("./images/presentation-right-solar.jpg");
+    background-color: white;
+    background-image: url("https://sunology.eu/cdn/shop/files/house_6.52.14_PM.webp?v=1694865779");
     background-size: cover;
     border: 0.8px solid white;
 }
