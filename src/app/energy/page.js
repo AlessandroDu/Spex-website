@@ -9,14 +9,14 @@ export default function Energy() {
     return (
         <div>
             <div className="landing-screen-energy">
-                <iframe 
+                {/* <iframe 
                     className='energy-landing-page-video' 
                     src="https://player.vimeo.com/video/960291383?autoplay=1&amp;loop=1&amp;muted=1&amp;controls=0&amp;sidedock=0&amp;title=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
                     frameborder="0"
                     allow="autoplay; fullscreen"
                     allowfullscreen="" 
                     title="Sunology - Gamme produits - PLAY | PLAYMax | CITY | HOME">
-                </iframe>
+                </iframe> */}
                 <div className="landing-screen-title-integrations">
                     <Link className='link' href="/">
                         <div className="logo-bg-square-integrations">
@@ -24,17 +24,17 @@ export default function Energy() {
                         </div>
                     </Link>
                     <div className="title-integrations">
-                        <h2 className='text-jetblack text-xl'>Energy</h2>
+                        <h1 className='text-jetblack'>Energy</h1>
                     </div>
                 </div>
                 <div className='see-more-container-integrations'>
                      <Link className='see-more-btn' href="/integrations#acoustic">
-                         <p>
+                         <h2>
                             <span className='see-more-underline'>See more</span><br/>
                              <IconButton className='btn-see-more' aria-label="unfold more">
-                               <UnfoldMoreIcon fontSize="small"/>
+                               <UnfoldMoreIcon fontSize="large"/>
                              </IconButton>
-                         </p>
+                         </h2>
                      </Link>
                 </div>
                 <div className='landing-page-bottom-fade'></div>
