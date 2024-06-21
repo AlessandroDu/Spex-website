@@ -77,7 +77,7 @@
 /* Slogan integrations page design */
 .slogan-container {
     display: flex;
-    flex: row;
+    flex-direction: row;
     margin-top: 20vh;
     margin-bottom: 15vh;
     padding-top: 10vh;

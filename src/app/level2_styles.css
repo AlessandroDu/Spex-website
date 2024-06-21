@@ -110,6 +110,65 @@
 .see-more-btn {
     display: none
 }
+
+.div-1 {
+    height: 150vh;
+  }
+
+  .div-1-subdiv {
+    width: 100vw;
+    height: 130vh;
+  }
+
+  .div-1-text {
+    padding: 2.5vh;
+  }
+
+  .pic1-integrations-acoustic, .pic2-integrations-acoustic, .pic3-integrations-acoustic, .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+    display: none;
+  }
+
+  .pic1-integrations-audio, .pic2-integrations-audio, .pic3-integrations-audio, .pic4-integrations-audio, .pic5-integrations-audio {
+    display: none;
+  }
+
+  .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation {
+    display: none;
+  }
+
+  .pic6-integrations-acoustic, .pic6-integrations-audio, .pic6-integrations-automation {
+    width: 90vw;
+  }
+
+  .our-main-brands-acoustic-container, .our-main-brands-audio-container {
+    display: none;
+  }
+
+  .div-1-audio {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-surface-neutral-opaque-subtle, #eee);
+    background-size: cover;
+  }
+
+  .div-1b-header {
+    left: 2.5vh;
+  }
+
+  .div-1b-subdiv {
+    width: 100vw;
+  }
+
+  .slogan-container {
+    height: max-content;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
   
   /* Most smartphones */
@@ -124,12 +183,53 @@
   
   /* Tablets in portrait mode */
   @media (min-width: 768px) {
+    .div-1 {
+        z-index: 1;
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 120vh;
+        background: var(--color-surface-neutral-opaque-subtle, #eee);
+        background-size: cover;
+      }
     
+      .div-1-subdiv {
+        width: 95vw;
+        height: 100vh;
+      }
+
+      .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+        display: flex;
+      }
+    
+      .pic4-integrations-audio, .pic5-integrations-audio {
+        display: flex;
+      }
+    
+     .pic4-integrations-automation, .pic5-integrations-automation {
+        display: flex;
+      }
+
+      .pic6-integrations-acoustic, .pic6-integrations-audio, .pic6-integrations-automation {
+        width: 13vw;
+      }
   }
   
   /* Tablets in landscape mode */
   @media (min-width: 1024px) {
-    
+    .slogan-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background-color: #2C3E50;
+        color: var(--color-surface-neutral-opaque-subtle, #eee);
+        width: 95vw;
+        height: 40vh;
+        box-shadow: 0 0.5px 5px 1px #2C3E50;
+    }
   }
   
   /* Small laptops */
@@ -139,7 +239,52 @@
   
   /* Standard desktops */
   @media (min-width: 1440px) {
+    .div-1 {
+        z-index: 1;
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: var(--color-surface-neutral-opaque-subtle, #eee);
+        background-size: cover;
+      }
+      
+      .div-1-subdiv {
+        z-index: 2;
+        display: flex;
+        width: 95vw;
+        height: 80vh;
+        background-color: #2C3E50;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+      .div-1b-subdiv {
+        z-index: 2;
+        display: flex;
+        width: 95vw;
+        height: 80vh;
+        background-color: #2C3E50;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      
+    .pic1-integrations-acoustic, .pic2-integrations-acoustic, .pic3-integrations-acoustic, .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+        display: flex;
+      }
     
+      .pic1-integrations-audio, .pic2-integrations-audio, .pic3-integrations-audio, .pic4-integrations-audio, .pic5-integrations-audio {
+        display: flex;
+      }
+    
+      .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation {
+        display: flex;
+      }
+
+      .our-main-brands-acoustic-container, .our-main-brands-audio-container {
+        display: flex;
+      }
   }
   
   /* Large desktops */

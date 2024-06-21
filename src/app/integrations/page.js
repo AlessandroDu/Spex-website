@@ -70,7 +70,7 @@ export default function Integrations() {
                   </div>
                 </div>
             </div>
-            <div id='audio' className='div-1'>
+            <div id='audio' className='div-1-audio'>
                 <h1 className='div-1b-header'>Audio</h1>
                 <div className='div-1b-subdiv'>
                   <div className='div-1-text'>
