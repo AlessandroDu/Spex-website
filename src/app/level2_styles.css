@@ -120,6 +120,15 @@
     height: 130vh;
   }
 
+  .div-1-automation {
+    height: 195vh;
+  }
+
+  .div-1-subdiv-automation {
+    width: 100vw;
+    height: 175vh;
+  }
+
   .div-1-text {
     padding: 2.5vh;
   }
@@ -132,11 +141,11 @@
     display: none;
   }
 
-  .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation {
+  .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation, .pic6-integrations-automation {
     display: none;
   }
 
-  .pic6-integrations-acoustic, .pic6-integrations-audio, .pic6-integrations-automation {
+  .pic6-integrations-acoustic, .pic6-integrations-audio {
     width: 90vw;
   }
 
@@ -205,12 +214,8 @@
       .pic4-integrations-audio, .pic5-integrations-audio {
         display: flex;
       }
-    
-     .pic4-integrations-automation, .pic5-integrations-automation {
-        display: flex;
-      }
 
-      .pic6-integrations-acoustic, .pic6-integrations-audio, .pic6-integrations-automation {
+      .pic6-integrations-acoustic, .pic6-integrations-audio {
         width: 13vw;
       }
   }
@@ -274,11 +279,16 @@
         display: flex;
       }
     
-      .pic1-integrations-audio, .pic2-integrations-audio, .pic3-integrations-audio, .pic4-integrations-audio, .pic5-integrations-audio {
-        display: flex;
-      }
+      .pic1-integrations-audio,
+      .pic2-integrations-audio,
+      .pic3-integrations-audio,
     
-      .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation {
+      .pic4-integrations-audio,
+      .pic5-integrations-audio,
+      .pic2-integrations-automation,
+      .pic3-integrations-automation,
+      .pic6-integrations-automation
+      {
         display: flex;
       }
 
@@ -289,6 +299,8 @@
   
   /* Large desktops */
   @media (min-width: 1920px) {
-    
+    .pic5-integrations-automation {
+      display: flex;
+    }
   }
   

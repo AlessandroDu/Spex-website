@@ -125,3 +125,8 @@
 .pic6-integrations-automation {
     background-image: url("../images/wip-picture.jpg");
 }
+
+.bold {
+    font-weight: bold;
+    color: white;
+}

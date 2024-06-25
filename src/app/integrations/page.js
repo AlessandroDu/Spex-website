@@ -63,7 +63,7 @@ export default function Integrations() {
                       <div className='div-1-pics pic-normal pic3-integrations-acoustic'></div>
                     </div>
                     <div className='div-1-portfolio-subcontainer'>
-                      <div className='div-1-pics pic-xl pic4-integrations-acoustic'></div>
+                      <div className='div-1-pics pic-normal pic4-integrations-acoustic'></div>
                       <div className='div-1-pics pic-normal pic5-integrations-acoustic'></div>
                       <div className='div-1-pics pic-normal pic6-integrations-acoustic'></div>
                     </div>
@@ -116,24 +116,35 @@ export default function Integrations() {
                 delivering a sound experience that is as genuine as it is unforgettable.
               </p>
             </div>
-            <div id='automation' className='div-1'>
+            <div id='automation' className='div-1 div-1-automation'>
                 <h1 className='div-1-header'>Automation</h1>
-                <div className='div-1-subdiv'>
+                <div className='div-1-subdiv div-1-subdiv-automation'>
                   <div className='div-1-text'>
-                    <h1>Automation</h1>
-                    <p></p>
+                    <h1>Our Expertise</h1>
+                    <p>
+                      Our company is dedicated to providing cutting-edge automation solutions through our partnership with Akuvox.<br/>
+                      By undergoing rigorous training and certification, we ensure that our team is equipped with the expertise needed<br/>
+                      to deliver exceptional automation services.<br/><br/>
+                      With a commitment to innovation, precision, and customer satisfaction, we excel in integrating Akuvox products<br/>
+                      into various environments, enhancing convenience, security, and efficiency.<br/>
+                    </p>
                     <br/>
                     <h1>Our Services</h1>
-                    <p></p>
+                    <p>
+                      - <span className='bold'>Smart Home Automation and Integration:</span><br/>Tailored solutions to automate and integrate smart home systems for seamless living experiences.<br/>
+                      - <span className='bold'>Access Control Systems:</span><br/>Design and implementation of advanced access control systems using Akuvox technology to ensure security and convenience.<br/>
+                      - <span className='bold'>Intercom Systems:</span><br/>Installation and integration of cutting-edge intercom systems that offer high-quality audio and video communication.<br/>
+                      - <span className='bold'>Surveillance and Monitoring:</span><br/>Comprehensive surveillance solutions with real-time monitoring capabilities for both residential and commercial properties.<br/>
+                      - <span className='bold'>System Integration with Existing Infrastructure:</span><br/>Expertise in integrating Akuvox products with existing systems and technologies to enhance functionality.<br/>
+                      - <span className='bold'>Project Management and Coordination:</span><br/>Effective project management, ensuring smooth coordination with clients and contractors from inception to completion.<br/>
+                    </p>
                   </div>
                   <div className='div-1-portfolio-container'>
                     <div className='div-1-portfolio-subcontainer'>
-                      <div className='div-1-pics pic-normal pic1-integrations-automation'></div>
                       <div className='div-1-pics pic-normal pic2-integrations-automation'></div>
                       <div className='div-1-pics pic-normal pic3-integrations-automation'></div>
                     </div>
                     <div className='div-1-portfolio-subcontainer'>
-                      <div className='div-1-pics pic-xl pic4-integrations-automation'></div>
                       <div className='div-1-pics pic-normal pic5-integrations-automation'></div>
                       <div className='div-1-pics pic-normal pic6-integrations-automation'></div>
                     </div>
