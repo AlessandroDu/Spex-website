@@ -1,0 +1,306 @@
+/* Shared level 2 page design */
+
+/* Logo design */
+.logo-center-integrations {
+    z-index: 5;
+    display: flex;
+    width: 5vh;
+    height: 5vh;
+    background-image: url("./images/logo-wbg.png");
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+  
+.logo-bg-square-integrations {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 6vh;
+    height: 6vh;
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    box-shadow: 0 0.5px 5px 1px #2C3E50;
+}
+/* 0-------------------------------------------------------------------------0 */
+
+
+/* General design rules */
+
+/* 1-------------------------------------------------------------------------1 */
+
+
+/* Integrations landing screen design */
+.integrations-screen {
+    background-position: center;
+}
+
+.landing-screen-title-integrations {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.title-integrations {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 55vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: max-content;
+    justify-content: center;
+    align-items: end;
+}
+
+.see-more-container-integrations {
+    z-index: 5;
+    display: flex;
+    height: 90vh;
+    width: 55vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 0.8px solid #2C3E50;
+}
+
+.see-more-underline {
+    text-decoration: underline;
+}
+
+.see-more-btn {
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-see-more {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* 2-------------------------------------------------------------------------2 */
+
+
+/* Default styles for mobile first */
+
+/* Small mobile devices */
+@media (min-width: 320px) {
+    /* Logo design */
+.logo-center-integrations {
+    width: 4vh;
+    height: 4vh;
+}
+  
+.logo-bg-square-integrations {
+    width: 5vh;
+    height: 5vh;
+}
+
+.see-more-btn {
+    display: none
+}
+
+.div-1 {
+    height: 150vh;
+  }
+
+  .div-1-subdiv {
+    width: 100vw;
+    height: 130vh;
+  }
+
+  .div-1-automation {
+    height: 195vh;
+  }
+
+  .div-1-subdiv-automation {
+    width: 100vw;
+    height: 175vh;
+  }
+
+  .div-1-text {
+    padding: 2.5vh;
+  }
+
+  .pic1-integrations-acoustic, .pic2-integrations-acoustic, .pic3-integrations-acoustic, .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+    display: none;
+  }
+
+  .pic1-integrations-audio, .pic2-integrations-audio, .pic3-integrations-audio, .pic4-integrations-audio, .pic5-integrations-audio {
+    display: none;
+  }
+
+  .pic1-integrations-automation, .pic2-integrations-automation, .pic3-integrations-automation, .pic4-integrations-automation, .pic5-integrations-automation, .pic6-integrations-automation {
+    display: none;
+  }
+
+  .pic6-integrations-acoustic, .pic6-integrations-audio {
+    width: 90vw;
+  }
+
+  .our-main-brands-acoustic-container, .our-main-brands-audio-container {
+    display: none;
+  }
+
+  .div-1-audio {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-surface-neutral-opaque-subtle, #eee);
+    background-size: cover;
+  }
+
+  .div-1b-header {
+    left: 2.5vh;
+  }
+
+  .div-1b-subdiv {
+    width: 100vw;
+  }
+
+  .slogan-container {
+    height: max-content;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+  
+  /* Most smartphones */
+  @media (min-width: 375px) {
+    
+  }
+  
+  /* Larger smartphones */
+  @media (min-width: 425px) {
+    
+  }
+  
+  /* Tablets in portrait mode */
+  @media (min-width: 768px) {
+    .div-1 {
+        z-index: 1;
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 120vh;
+        background: var(--color-surface-neutral-opaque-subtle, #eee);
+        background-size: cover;
+      }
+    
+      .div-1-subdiv {
+        width: 95vw;
+        height: 100vh;
+      }
+
+      .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+        display: flex;
+      }
+    
+      .pic4-integrations-audio, .pic5-integrations-audio {
+        display: flex;
+      }
+
+      .pic6-integrations-acoustic, .pic6-integrations-audio {
+        width: 13vw;
+      }
+  }
+  
+  /* Tablets in landscape mode */
+  @media (min-width: 1024px) {
+    .slogan-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background-color: #2C3E50;
+        color: var(--color-surface-neutral-opaque-subtle, #eee);
+        width: 95vw;
+        height: 40vh;
+        box-shadow: 0 0.5px 5px 1px #2C3E50;
+    }
+  }
+  
+  /* Small laptops */
+  @media (min-width: 1280px) {
+    
+  }
+  
+  /* Standard desktops */
+  @media (min-width: 1440px) {
+    .div-1 {
+        z-index: 1;
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: var(--color-surface-neutral-opaque-subtle, #eee);
+        background-size: cover;
+      }
+      
+      .div-1-subdiv {
+        z-index: 2;
+        display: flex;
+        width: 95vw;
+        height: 80vh;
+        background-color: #2C3E50;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+      .div-1b-subdiv {
+        z-index: 2;
+        display: flex;
+        width: 95vw;
+        height: 80vh;
+        background-color: #2C3E50;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      
+    .pic1-integrations-acoustic, .pic2-integrations-acoustic, .pic3-integrations-acoustic, .pic4-integrations-acoustic, .pic5-integrations-acoustic {
+        display: flex;
+      }
+    
+      .pic1-integrations-audio,
+      .pic2-integrations-audio,
+      .pic3-integrations-audio,
+    
+      .pic4-integrations-audio,
+      .pic5-integrations-audio,
+      .pic2-integrations-automation,
+      .pic3-integrations-automation,
+      .pic6-integrations-automation
+      {
+        display: flex;
+      }
+
+      .our-main-brands-acoustic-container, .our-main-brands-audio-container {
+        display: flex;
+      }
+  }
+  
+  /* Large desktops */
+  @media (min-width: 1920px) {
+    .pic5-integrations-automation {
+      display: flex;
+    }
+  }
+  

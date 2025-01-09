@@ -1,0 +1,137 @@
+/* var(--color-surface-neutral-opaque-subtle, #eee); */
+/* #2C3E50 */
+
+/* Logo design */
+.logo-center-footer {
+    z-index: 5;
+    display: flex;
+    width: 14vh;
+    height: 14vh;
+    background-image: url("../images/logo-wbg.png");
+    background-size: cover;
+}
+  
+.logo-bg-square-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 15vh;
+    height: 15vh;
+    box-shadow: 0 0.5px 5px 1px var(--color-surface-neutral-opaque-subtle, #eee);;
+}
+/* 0-------------------------------------------------------------------------0 */
+
+.link:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+    color: white;
+}
+
+/* Default styles for mobile first */
+
+/* Small mobile devices */
+@media (min-width: 320px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        width: 100vw;
+        background-color: #2C3E50;
+        padding: 2.5vh;
+    }
+    .contact-us, .our-location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2.5vh;
+    }
+    .software, .integrations, .energy {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2.5vh;
+    }
+  }
+  
+  /* Most smartphones */
+  @media (min-width: 375px) {
+    
+  }
+  
+  /* Larger smartphones */
+  @media (min-width: 425px) {
+    
+  }
+  
+  /* Tablets in portrait mode */
+  @media (min-width: 768px) {
+    
+  }
+  
+  /* Tablets in landscape mode */
+  @media (min-width: 1024px) {
+    .footer-left-subdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+  }
+  
+  /* Small laptops */
+  @media (min-width: 1280px) {
+  }
+  
+  /* Standard desktops */
+  @media (min-width: 1440px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 50vh;
+        background-color: #2C3E50;
+        margin-top: 10vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        align-items: center;
+    }
+    
+    .footer-left-subdiv, .footer-right-subdiv {
+        display: flex;
+        flex-direction: row;
+        width: 50vw;
+        height: 40vh;
+        justify-content: space-between;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    
+    .footer-left-subdiv {
+        border-right: 0.8px solid var(--color-surface-neutral-opaque-subtle, #eee);
+    }
+    
+    .footer-right-subdiv {
+        text-align: center;
+        align-items: start;
+        height: max-content;
+    }
+    
+    .our-location, .contact-us {
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+  }
+  
+  /* Large desktops */
+  @media (min-width: 1920px) {
+    
+  }
+  

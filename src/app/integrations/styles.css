@@ -1,0 +1,132 @@
+/* Integrations page design */
+
+/* Integrations landing screen design */
+.integrations-screen {
+    background-image: url("../images/spex-integrations2.0-cover.jpg");
+}
+/* 0-------------------------------------------------------------------------0 */
+
+
+/* div-1 acoustic screen design */
+.our-main-brands-acoustic-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 2.5%;
+    gap: 2.5%;
+    width: 95%;
+    align-items: center;
+    color: rgb(143, 142, 142);
+}
+
+.pic1-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic2-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic3-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic4-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic5-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic6-integrations-acoustic {
+    background-image: url("../images/wip-picture.jpg");
+}
+/* 1-------------------------------------------------------------------------1 */
+
+
+/* div-2 audio screen design */
+.our-main-brands-audio-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(143, 142, 142);
+}
+
+.pic1-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic2-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic3-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic4-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic5-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic6-integrations-audio {
+    background-image: url("../images/wip-picture.jpg");
+}
+/* 2-------------------------------------------------------------------------2 */
+/* var(--color-surface-neutral-opaque-subtle, #eee); */
+
+/* Slogan integrations page design */
+.slogan-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #2C3E50;
+    color: var(--color-surface-neutral-opaque-subtle, #eee);
+    width: 95vw;
+    height: 40vh;
+    box-shadow: 0 0.5px 5px 1px #2C3E50;
+}
+
+.slogan-container h1, .slogan-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-container h1 {
+    width: 45vw;
+}
+
+.slogan-container p {
+    width: 50vw;
+    text-align: center;
+}
+/* 3-------------------------------------------------------------------------3 */
+
+
+/* div-3 automation screen design */
+.pic1-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic2-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic3-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic4-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic5-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+.pic6-integrations-automation {
+    background-image: url("../images/wip-picture.jpg");
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
